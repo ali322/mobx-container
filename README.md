@@ -1,4 +1,4 @@
-Redux Container [![npm version](https://badge.fury.io/js/mobx-container.svg)](https://badge.fury.io/js/mobx-container)
+Mobx Container [![npm version](https://badge.fury.io/js/mobx-container.svg)](https://badge.fury.io/js/mobx-container)
 ===
 [![NPM](https://nodei.co/npm/mobx-container.png)](https://nodei.co/npm/mobx-container/)
 

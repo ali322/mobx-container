@@ -1,6 +1,6 @@
 {
   "name": "mobx-container",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "simple mobx container for react component",
   "main": "src/index.js",
   "jsnext:main": "es/index.js",

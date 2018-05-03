@@ -1,6 +1,6 @@
 {
   "name": "mobx-container",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "simple mobx container for react component",
   "main": "lib/index.js",
   "jsnext:main": "es/index.js",
@@ -33,7 +33,6 @@
   "homepage": "https://github.com/ali322/mobx-container#readme",
   "peerDependencies": {
     "mobx": "^4.0.0",
-    "mobx-react": "^5.0.0",
     "react": "^0.13.0 || ^0.14.0 || ^15.0.0 || ^16.0.0"
   },
   "devDependencies": {
@@ -45,5 +44,8 @@
     "babel-preset-stage-2": "^6.24.1",
     "cross-env": "^5.0.1",
     "rimraf": "^2.6.1"
+  },
+  "dependencies": {
+    "mobx-react": "^5.1.2"
   }
 }

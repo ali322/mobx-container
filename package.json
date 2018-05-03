@@ -1,20 +1,20 @@
 {
   "name": "mobx-container",
-  "version": "0.0.3",
+  "version": "0.0.6",
   "description": "simple mobx container for react component",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "jsnext:main": "es/index.js",
   "files": [
     "dist",
     "es",
-    "src"
+    "lib"
   ],
   "scripts": {
     "clean": "rimraf dist es",
     "build": "npm run build:commonjs && npm run build:es",
     "prepublish": "npm run clean && npm run build",
-    "build:commonjs": "cross-env BABEL_ENV=commonjs babel --plugins add-module-exports src --out-dir dist",
-    "build:es": "cross-env BABEL_ENV=es babel src --out-dir es",
+    "build:commonjs": "cross-env BABEL_ENV=commonjs babel --plugins add-module-exports lib --out-dir dist",
+    "build:es": "cross-env BABEL_ENV=es babel lib --out-dir es",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -32,11 +32,9 @@
   },
   "homepage": "https://github.com/ali322/mobx-container#readme",
   "peerDependencies": {
-    "mobx": "^3.1.16"
-  },
-  "dependencies": {
-    "mobx-react": "^4.2.1",
-    "react": "^15.6.1"
+    "mobx": "^4.0.0",
+    "mobx-react": "^5.0.0",
+    "react": "^0.13.0 || ^0.14.0 || ^15.0.0 || ^16.0.0"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
